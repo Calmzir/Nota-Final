@@ -20,11 +20,10 @@ let ramo3Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo3Name}]`));
 
 //Aquí creamos nuestro div contenedor
 document.write("<div class='container'>");
-document.write("<h1>Notas finales</h1>")
+document.write("<h1>Notas finales</h1>");
 
 document.write("<table class='table'>");
 document.write("<tbody>");
-document.write("</tbody>");
 document.write("<tr>");
 document.write(`<td>Nombre:</td>`);
 document.write(`<td>${firstName ? firstName : '-'} ${lastName ? lastName : '-'}</td>`);
@@ -33,6 +32,7 @@ document.write("<tr>");
 document.write(`<td>Carrera:</td>`);
 document.write(`<td>${career ? career : '-'}</td>`);
 document.write("</tr>");
+document.write("</tbody>");
 document.write("</table>");
 
 //Aquí creamos nuestra tabla con Bootstrap
@@ -83,3 +83,8 @@ document.write("</table");
 //Aquí cerramos nuestra tabla
 document.write("</div>");
 //Aquí cerramos nuestro div contenedor
+
+
+
+var cajita = document.getElementById('cajita');
+cajita.innerHTML("<h1>Notas finales</h1>")
