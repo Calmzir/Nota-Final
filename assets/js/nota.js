@@ -1,22 +1,22 @@
-let firstName = prompt('Ingrese el nombre del alumno');
-let lastName = prompt('Ingrese el apellido del alumno');
+const firstName = prompt('Ingrese el nombre del alumno');
+const lastName = prompt('Ingrese el apellido del alumno');
 
-let career = prompt('Ingrese la carrera del alumno');
+const career = prompt('Ingrese la carrera del alumno');
 
-let ramo1Name = prompt('Ingrese el nombre del primer ramo');
-let ramo1Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo1Name}]`));
-let ramo1Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo1Name}]`));
-let ramo1Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo1Name}]`));
+const ramo1Name = prompt('Ingrese el nombre del primer ramo');
+const ramo1Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo1Name}]`));
+const ramo1Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo1Name}]`));
+const ramo1Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo1Name}]`));
 
-let ramo2Name = prompt('Ingrese el nombre del segundo ramo');
-let ramo2Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo2Name}]`));
-let ramo2Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo2Name}]`));
-let ramo2Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo2Name}]`));
+const ramo2Name = prompt('Ingrese el nombre del segundo ramo');
+const ramo2Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo2Name}]`));
+const ramo2Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo2Name}]`));
+const ramo2Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo2Name}]`));
 
-let ramo3Name = prompt('Ingrese el nombre del tercer ramo');
-let ramo3Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo3Name}]`));
-let ramo3Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo3Name}]`));
-let ramo3Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo3Name}]`));
+const ramo3Name = prompt('Ingrese el nombre del tercer ramo');
+const ramo3Note1 = parseInt(prompt(`Ingrese Nota 1 [${ramo3Name}]`));
+const ramo3Note2 = parseInt(prompt(`Ingrese Nota 2 [${ramo3Name}]`));
+const ramo3Note3 = parseInt(prompt(`Ingrese Nota 3 [${ramo3Name}]`));
 
 //Aquí creamos nuestro div contenedor
 document.write("<div class='container'>");
