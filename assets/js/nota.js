@@ -83,8 +83,3 @@ document.write("</table");
 //Aquí cerramos nuestra tabla
 document.write("</div>");
 //Aquí cerramos nuestro div contenedor
-
-
-
-var cajita = document.getElementById('cajita');
-cajita.innerHTML("<h1>Notas finales</h1>")
