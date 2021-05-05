@@ -1,0 +1,22 @@
+:root {
+    --info : #17a2b8;
+    --pink: #e83e8c;
+    --white: #ffffff;
+    --black: #212529;
+}
+
+.navbar, .footer {
+    background-color: var(--pink);
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.footer img {
+    height: 100px;
+}
+
+.pay-weys {
+    background-color: var(--info);
+}
